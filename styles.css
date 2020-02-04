@@ -1,0 +1,33 @@
+/* Todo: your styles go here*/
+i {
+    color: #edbc0b;
+}
+ul {
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+p {
+    margin: 0;
+}
+.folder-title {
+    cursor: pointer;
+    user-select: none;
+}
+.g-filesystem {
+    display: none;
+}
+.active {
+    display: block;
+}
+.g-file > i {
+    color: grey;
+}
+span {
+    display: block;
+}
+.folder-title, .g-file {
+    display: flex;
+    align-items: center;
+}
